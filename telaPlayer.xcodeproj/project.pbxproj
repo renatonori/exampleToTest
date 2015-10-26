@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9609ABF1BCD63B500E8D91A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9609ABE1BCD63B500E8D91A /* main.m */; };
+		A9609AC21BCD63B500E8D91A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9609AC11BCD63B500E8D91A /* AppDelegate.m */; };
+		A9609AC51BCD63B500E8D91A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9609AC41BCD63B500E8D91A /* ViewController.m */; };
+		A9609AC81BCD63B500E8D91A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9609AC61BCD63B500E8D91A /* Main.storyboard */; };
+		A9609ACB1BCD63B500E8D91A /* telaPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9609AC91BCD63B500E8D91A /* telaPlayer.xcdatamodeld */; };
+		A9609ACD1BCD63B500E8D91A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9609ACC1BCD63B500E8D91A /* Assets.xcassets */; };
+		A9609AD01BCD63B500E8D91A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9609ACE1BCD63B500E8D91A /* LaunchScreen.storyboard */; };
+		A9609ADB1BCD63B500E8D91A /* telaPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9609ADA1BCD63B500E8D91A /* telaPlayerTests.m */; };
+		A9609AE61BCD63B500E8D91A /* telaPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9609AE51BCD63B500E8D91A /* telaPlayerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9609AD71BCD63B500E8D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9609AB21BCD63B500E8D91A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9609AB91BCD63B500E8D91A;
+			remoteInfo = telaPlayer;
+		};
+		A9609AE21BCD63B500E8D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9609AB21BCD63B500E8D91A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9609AB91BCD63B500E8D91A;
+			remoteInfo = telaPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9609ABA1BCD63B500E8D91A /* telaPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = telaPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9609ABE1BCD63B500E8D91A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9609AC01BCD63B500E8D91A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9609AC11BCD63B500E8D91A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9609AC31BCD63B500E8D91A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9609AC41BCD63B500E8D91A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9609AC71BCD63B500E8D91A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9609ACA1BCD63B500E8D91A /* telaPlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = telaPlayer.xcdatamodel; sourceTree = "<group>"; };
+		A9609ACC1BCD63B500E8D91A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9609ACF1BCD63B500E8D91A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9609AD11BCD63B500E8D91A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9609AD61BCD63B500E8D91A /* telaPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = telaPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9609ADA1BCD63B500E8D91A /* telaPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = telaPlayerTests.m; sourceTree = "<group>"; };
+		A9609ADC1BCD63B500E8D91A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9609AE11BCD63B500E8D91A /* telaPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = telaPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9609AE51BCD63B500E8D91A /* telaPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = telaPlayerUITests.m; sourceTree = "<group>"; };
+		A9609AE71BCD63B500E8D91A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9609AB71BCD63B500E8D91A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9609AD31BCD63B500E8D91A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9609ADE1BCD63B500E8D91A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9609AB11BCD63B500E8D91A = {
+			isa = PBXGroup;
+			children = (
+				A9609ABC1BCD63B500E8D91A /* telaPlayer */,
+				A9609AD91BCD63B500E8D91A /* telaPlayerTests */,
+				A9609AE41BCD63B500E8D91A /* telaPlayerUITests */,
+				A9609ABB1BCD63B500E8D91A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9609ABB1BCD63B500E8D91A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9609ABA1BCD63B500E8D91A /* telaPlayer.app */,
+				A9609AD61BCD63B500E8D91A /* telaPlayerTests.xctest */,
+				A9609AE11BCD63B500E8D91A /* telaPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9609ABC1BCD63B500E8D91A /* telaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A9609AC01BCD63B500E8D91A /* AppDelegate.h */,
+				A9609AC11BCD63B500E8D91A /* AppDelegate.m */,
+				A9609AC31BCD63B500E8D91A /* ViewController.h */,
+				A9609AC41BCD63B500E8D91A /* ViewController.m */,
+				A9609AC61BCD63B500E8D91A /* Main.storyboard */,
+				A9609ACC1BCD63B500E8D91A /* Assets.xcassets */,
+				A9609ACE1BCD63B500E8D91A /* LaunchScreen.storyboard */,
+				A9609AD11BCD63B500E8D91A /* Info.plist */,
+				A9609AC91BCD63B500E8D91A /* telaPlayer.xcdatamodeld */,
+				A9609ABD1BCD63B500E8D91A /* Supporting Files */,
+			);
+			path = telaPlayer;
+			sourceTree = "<group>";
+		};
+		A9609ABD1BCD63B500E8D91A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9609ABE1BCD63B500E8D91A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9609AD91BCD63B500E8D91A /* telaPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9609ADA1BCD63B500E8D91A /* telaPlayerTests.m */,
+				A9609ADC1BCD63B500E8D91A /* Info.plist */,
+			);
+			path = telaPlayerTests;
+			sourceTree = "<group>";
+		};
+		A9609AE41BCD63B500E8D91A /* telaPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9609AE51BCD63B500E8D91A /* telaPlayerUITests.m */,
+				A9609AE71BCD63B500E8D91A /* Info.plist */,
+			);
+			path = telaPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9609AB91BCD63B500E8D91A /* telaPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9609AEA1BCD63B500E8D91A /* Build configuration list for PBXNativeTarget "telaPlayer" */;
+			buildPhases = (
+				A9609AB61BCD63B500E8D91A /* Sources */,
+				A9609AB71BCD63B500E8D91A /* Frameworks */,
+				A9609AB81BCD63B500E8D91A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = telaPlayer;
+			productName = telaPlayer;
+			productReference = A9609ABA1BCD63B500E8D91A /* telaPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9609AD51BCD63B500E8D91A /* telaPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9609AED1BCD63B500E8D91A /* Build configuration list for PBXNativeTarget "telaPlayerTests" */;
+			buildPhases = (
+				A9609AD21BCD63B500E8D91A /* Sources */,
+				A9609AD31BCD63B500E8D91A /* Frameworks */,
+				A9609AD41BCD63B500E8D91A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9609AD81BCD63B500E8D91A /* PBXTargetDependency */,
+			);
+			name = telaPlayerTests;
+			productName = telaPlayerTests;
+			productReference = A9609AD61BCD63B500E8D91A /* telaPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9609AE01BCD63B500E8D91A /* telaPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9609AF01BCD63B500E8D91A /* Build configuration list for PBXNativeTarget "telaPlayerUITests" */;
+			buildPhases = (
+				A9609ADD1BCD63B500E8D91A /* Sources */,
+				A9609ADE1BCD63B500E8D91A /* Frameworks */,
+				A9609ADF1BCD63B500E8D91A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9609AE31BCD63B500E8D91A /* PBXTargetDependency */,
+			);
+			name = telaPlayerUITests;
+			productName = telaPlayerUITests;
+			productReference = A9609AE11BCD63B500E8D91A /* telaPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9609AB21BCD63B500E8D91A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Renato Ioshida";
+				TargetAttributes = {
+					A9609AB91BCD63B500E8D91A = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					A9609AD51BCD63B500E8D91A = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = A9609AB91BCD63B500E8D91A;
+					};
+					A9609AE01BCD63B500E8D91A = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = A9609AB91BCD63B500E8D91A;
+					};
+				};
+			};
+			buildConfigurationList = A9609AB51BCD63B500E8D91A /* Build configuration list for PBXProject "telaPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9609AB11BCD63B500E8D91A;
+			productRefGroup = A9609ABB1BCD63B500E8D91A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9609AB91BCD63B500E8D91A /* telaPlayer */,
+				A9609AD51BCD63B500E8D91A /* telaPlayerTests */,
+				A9609AE01BCD63B500E8D91A /* telaPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9609AB81BCD63B500E8D91A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9609AD01BCD63B500E8D91A /* LaunchScreen.storyboard in Resources */,
+				A9609ACD1BCD63B500E8D91A /* Assets.xcassets in Resources */,
+				A9609AC81BCD63B500E8D91A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9609AD41BCD63B500E8D91A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9609ADF1BCD63B500E8D91A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9609AB61BCD63B500E8D91A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9609AC51BCD63B500E8D91A /* ViewController.m in Sources */,
+				A9609AC21BCD63B500E8D91A /* AppDelegate.m in Sources */,
+				A9609ACB1BCD63B500E8D91A /* telaPlayer.xcdatamodeld in Sources */,
+				A9609ABF1BCD63B500E8D91A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9609AD21BCD63B500E8D91A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9609ADB1BCD63B500E8D91A /* telaPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9609ADD1BCD63B500E8D91A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9609AE61BCD63B500E8D91A /* telaPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9609AD81BCD63B500E8D91A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9609AB91BCD63B500E8D91A /* telaPlayer */;
+			targetProxy = A9609AD71BCD63B500E8D91A /* PBXContainerItemProxy */;
+		};
+		A9609AE31BCD63B500E8D91A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9609AB91BCD63B500E8D91A /* telaPlayer */;
+			targetProxy = A9609AE21BCD63B500E8D91A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9609AC61BCD63B500E8D91A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9609AC71BCD63B500E8D91A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9609ACE1BCD63B500E8D91A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9609ACF1BCD63B500E8D91A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9609AE81BCD63B500E8D91A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9609AE91BCD63B500E8D91A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9609AEB1BCD63B500E8D91A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = telaPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Renato.telaPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9609AEC1BCD63B500E8D91A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = telaPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Renato.telaPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A9609AEE1BCD63B500E8D91A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = telaPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Renato.telaPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/telaPlayer.app/telaPlayer";
+			};
+			name = Debug;
+		};
+		A9609AEF1BCD63B500E8D91A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = telaPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Renato.telaPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/telaPlayer.app/telaPlayer";
+			};
+			name = Release;
+		};
+		A9609AF11BCD63B500E8D91A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = telaPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Renato.telaPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = telaPlayer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A9609AF21BCD63B500E8D91A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = telaPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Renato.telaPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = telaPlayer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9609AB51BCD63B500E8D91A /* Build configuration list for PBXProject "telaPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9609AE81BCD63B500E8D91A /* Debug */,
+				A9609AE91BCD63B500E8D91A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9609AEA1BCD63B500E8D91A /* Build configuration list for PBXNativeTarget "telaPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9609AEB1BCD63B500E8D91A /* Debug */,
+				A9609AEC1BCD63B500E8D91A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9609AED1BCD63B500E8D91A /* Build configuration list for PBXNativeTarget "telaPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9609AEE1BCD63B500E8D91A /* Debug */,
+				A9609AEF1BCD63B500E8D91A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9609AF01BCD63B500E8D91A /* Build configuration list for PBXNativeTarget "telaPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9609AF11BCD63B500E8D91A /* Debug */,
+				A9609AF21BCD63B500E8D91A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A9609AC91BCD63B500E8D91A /* telaPlayer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A9609ACA1BCD63B500E8D91A /* telaPlayer.xcdatamodel */,
+			);
+			currentVersion = A9609ACA1BCD63B500E8D91A /* telaPlayer.xcdatamodel */;
+			path = telaPlayer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A9609AB21BCD63B500E8D91A /* Project object */;
+}
