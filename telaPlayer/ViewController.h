@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UITextViewDelegate>
+@interface ViewController : UIViewController<UITextViewDelegate,UIViewControllerTransitioningDelegate>
 
 @property (strong, nonatomic) IBOutlet NSLayoutConstraint *letraMusicaBottomDistanceConstraint;
 @property (strong, nonatomic) IBOutlet UIView *controleInicial;

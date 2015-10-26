@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A907B1CE1BDEA0F800B72513 /* OpcoesSourcesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A907B1CD1BDEA0F800B72513 /* OpcoesSourcesViewController.m */; };
+		A907B1D21BDEAACA00B72513 /* AlphaVerticalSlideTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A907B1D11BDEAACA00B72513 /* AlphaVerticalSlideTransition.m */; };
 		A9609ABF1BCD63B500E8D91A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9609ABE1BCD63B500E8D91A /* main.m */; };
 		A9609AC21BCD63B500E8D91A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9609AC11BCD63B500E8D91A /* AppDelegate.m */; };
 		A9609AC51BCD63B500E8D91A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9609AC41BCD63B500E8D91A /* ViewController.m */; };
@@ -36,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A907B1CC1BDEA0F800B72513 /* OpcoesSourcesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpcoesSourcesViewController.h; sourceTree = "<group>"; };
+		A907B1CD1BDEA0F800B72513 /* OpcoesSourcesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpcoesSourcesViewController.m; sourceTree = "<group>"; };
+		A907B1D01BDEAACA00B72513 /* AlphaVerticalSlideTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlphaVerticalSlideTransition.h; sourceTree = "<group>"; };
+		A907B1D11BDEAACA00B72513 /* AlphaVerticalSlideTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlphaVerticalSlideTransition.m; sourceTree = "<group>"; };
 		A9609ABA1BCD63B500E8D91A /* telaPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = telaPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9609ABE1BCD63B500E8D91A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9609AC01BCD63B500E8D91A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -80,6 +86,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A907B1CF1BDEAA6700B72513 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
 		A9609AB11BCD63B500E8D91A = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +116,7 @@
 		A9609ABC1BCD63B500E8D91A /* telaPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				A907B1CF1BDEAA6700B72513 /* New Group */,
 				A9609AC01BCD63B500E8D91A /* AppDelegate.h */,
 				A9609AC11BCD63B500E8D91A /* AppDelegate.m */,
 				A9609AC31BCD63B500E8D91A /* ViewController.h */,
@@ -113,6 +127,10 @@
 				A9609AD11BCD63B500E8D91A /* Info.plist */,
 				A9609AC91BCD63B500E8D91A /* telaPlayer.xcdatamodeld */,
 				A9609ABD1BCD63B500E8D91A /* Supporting Files */,
+				A907B1CC1BDEA0F800B72513 /* OpcoesSourcesViewController.h */,
+				A907B1CD1BDEA0F800B72513 /* OpcoesSourcesViewController.m */,
+				A907B1D01BDEAACA00B72513 /* AlphaVerticalSlideTransition.h */,
+				A907B1D11BDEAACA00B72513 /* AlphaVerticalSlideTransition.m */,
 			);
 			path = telaPlayer;
 			sourceTree = "<group>";
@@ -274,8 +292,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9609AC51BCD63B500E8D91A /* ViewController.m in Sources */,
+				A907B1D21BDEAACA00B72513 /* AlphaVerticalSlideTransition.m in Sources */,
 				A9609AC21BCD63B500E8D91A /* AppDelegate.m in Sources */,
 				A9609ACB1BCD63B500E8D91A /* telaPlayer.xcdatamodeld in Sources */,
+				A907B1CE1BDEA0F800B72513 /* OpcoesSourcesViewController.m in Sources */,
 				A9609ABF1BCD63B500E8D91A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,6 +520,7 @@
 				A9609AEC1BCD63B500E8D91A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9609AED1BCD63B500E8D91A /* Build configuration list for PBXNativeTarget "telaPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +529,7 @@
 				A9609AEF1BCD63B500E8D91A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9609AF01BCD63B500E8D91A /* Build configuration list for PBXNativeTarget "telaPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +538,7 @@
 				A9609AF21BCD63B500E8D91A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

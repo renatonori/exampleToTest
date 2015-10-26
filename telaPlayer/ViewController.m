@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "OpcoesSourcesViewController.h"
+#import "AlphaVerticalSlideTransition.h"
 
 @interface ViewController ()
 
@@ -71,6 +73,32 @@
         return YES;
     }
     return NO;
+}
+- (IBAction)iniciarMusica:(id)sender {
+    
+    OpcoesSourcesViewController *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"OpcoesSourcesViewControllerID"];
+    controller.modalPresentationStyle = UIModalPresentationCustom;
+    controller.transitioningDelegate = self;
+    [self presentViewController:controller animated:YES completion:nil];
+    
+}
+
+#pragma mark UIViewControllerTransitioningDelegate
+
+- (id<UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source
+{
+    AlphaVerticalSlideTransition *transition = [AlphaVerticalSlideTransition new];
+    transition.presenting = YES;
+    return transition;
+}
+
+- (id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed
+{
+    
+    AlphaVerticalSlideTransition *transition = [AlphaVerticalSlideTransition new];
+    transition.presenting = NO;
+    return transition;
+    
 }
 
 @end
